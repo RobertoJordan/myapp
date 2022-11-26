@@ -1,0 +1,12 @@
+schema: "/"
+documents: "./src/**/*.tsx"
+overwrite: true
+generates:
+  ./src/generates.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-react-query
+    config:
+      withHooks: true
+      fetcher: graphql-request

@@ -1,0 +1,21 @@
+{
+  "name": "My app",
+  "description": "A GraphQL-powered, single-page dashboard application for MyApp",
+  "website": "http://www.robertojordan.com/",
+  "keywords": ["social-media", "payment"],
+  "env": {
+    "API_URI": {
+      "description": "URI of a running instance of 'MyApp' GraphQL API",
+      "value": "/"
+    },
+    "APP_MOUNT_URI": {
+      "description": "URI at which the Dashboard app will be mounted",
+      "value": "/"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "/"
+    }
+  ]
+}

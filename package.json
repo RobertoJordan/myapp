@@ -1,0 +1,108 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@graphql-codegen/add": "^3.1.1",
+    "@graphql-codegen/cli": "^2.6.2",
+    "@graphql-codegen/fragment-matcher": "^3.2.1",
+    "@graphql-codegen/typescript": "^2.4.11",
+    "@graphql-codegen/typescript-operations": "^2.4.0",
+    "@graphql-codegen/typescript-react-query": "^3.5.12",
+    "@react-google-maps/api": "^2.7.0",
+    "@syncfusion/ej2-spreadsheet": "^20.2.38",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/draft-js": "^0.10.34",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-color": "^3.0.6",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-router-dom": "^5.3.2",
+    "@types/react-scrollbar-size": "^3.0.0",
+    "@types/styled-components": "^5.1.26",
+    "@types/styletron-engine-atomic": "^1.1.1",
+    "@types/styletron-react": "^5.0.3",
+    "@types/styletron-standard": "^2.0.2",
+    "baseui": "^12.2.0",
+    "chart.js": "^3.8.0",
+    "chartjs-plugin-datalabels": "^2.0.0",
+    "draft-js": "0.10.5",
+    "draftail": "^1.4.1",
+    "generate": "^0.14.0",
+    "graphql": "^16.5.0",
+    "graphql-request": "^3.7.0",
+    "husky": "^7.0.4",
+    "jwt-decode": "^3.1.2",
+    "lint-staged": "^12.3.3",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "prettier": "^2.5.1",
+    "react": "^18.2.0",
+    "react-addons-shallow-compare": "*",
+    "react-chartist": "^0.13.3",
+    "react-chartjs": "^1.2.0",
+    "react-chartjs-2": "^4.2.0",
+    "react-charts": "^3.0.0-beta.33",
+    "react-color": "^2.19.3",
+    "react-cookie-consent": "^2.5.0",
+    "react-d3": "*",
+    "react-datepicker": "~2.8.0",
+    "react-dom": "^18.2.0",
+    "react-fast-compare": "^3.2.0",
+    "react-google-login": "^5.2.2",
+    "react-google-recaptcha": "^2.1.0",
+    "react-hook-form": "^7.22.5",
+    "react-markdown": "^8.0.0",
+    "react-number-format": "^4.7.3",
+    "react-phone-input-2": "^2.13.9",
+    "react-query": "^3.34.12",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^5.3.0",
+    "react-router-redux": "*",
+    "react-scripts": "4.0.3",
+    "react-scrollbar-size": "^4.0.0",
+    "react-spreadsheet": "^0.7.5",
+    "react-svg-inline": "^2.1.1",
+    "react-syntax-highlighter": "^10.3.0",
+    "react-virtualized": "^9.22.3",
+    "scheduler": "^0.23.0",
+    "styled-components": "^5.3.6",
+    "styletron-engine-atomic": "^1.4.8",
+    "styletron-react": "^6.0.2",
+    "typescript": "^4.1.2",
+    "uuidv4": "^6.2.13",
+    "web-vitals": "^1.0.1"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ]
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
